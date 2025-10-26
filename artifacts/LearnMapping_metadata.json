@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_plantId",
+						"type": "uint256"
+					}
+				],
+				"name": "addPlant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "plantOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "plantWater",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_plantId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_water",
+						"type": "uint8"
+					}
+				],
+				"name": "waterPlant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learnMapping.sol": "LearnMapping"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learnMapping.sol": {
+			"keccak256": "0xe1f5300ac9a441368fede8911330fdb530ee3feda5b4b2ce863810f7c9006e1d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c773d16559af62e388a10ba5d09b7e8dcadd01fab553f31efd3ff2de6f46764d",
+				"dweb:/ipfs/QmcvgdLvQHvE2SAZ6uB7vtKaD3K4saqZtghXNWxDriM7WR"
+			]
+		}
+	},
+	"version": 1
+}
